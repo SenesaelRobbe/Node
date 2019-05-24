@@ -3,8 +3,8 @@ module.exports = function(mysql) {
 		host: "localhost",
 		port : 3306,
 		database: "homestead",
-		user: "Robbe",
-		password: "Homestead123",
+		user: "homestead",
+		password: "secret",
 		insecureAuth: true,
 		debug: true,
 
