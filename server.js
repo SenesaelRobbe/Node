@@ -6,6 +6,7 @@ const db = require("./config/db")(mysql);
 
 const app = express();
 app.use(bodyParser.urlencoded({extended: true}));
+
 require("./app/routes/note_routes")(app, db);
 
 const port= 8090;
