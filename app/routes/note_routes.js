@@ -35,6 +35,7 @@ module.exports = function(app, conn) {
 			if(err) {
 				return console.error(err.message);
 			}
+			conn.release();
 		})
 	})
 }
